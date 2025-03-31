@@ -1,0 +1,29 @@
+{
+	"name": "SourceData",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "SourceDataset",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "SalesLTProduct.txt",
+				"folderPath": "KirithiProject/input",
+				"fileSystem": "containerkirithikaa17"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "ProductID\tName\tProductNumber\tColor\tStandardCost\tListPrice\tSize\tWeight\tProductCategoryID\tProductModelID\tSellStartDate\tSellEndDate\tDiscontinuedDate\tThumbNailPhoto\tThumbnailPhotoFileName\trowguid\tModifiedDate",
+				"type": "String"
+			}
+		]
+	}
+}

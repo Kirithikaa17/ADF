@@ -1,0 +1,23 @@
+{
+	"name": "sinkdata",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "SourceDataset",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "KirithiProject/output",
+				"fileSystem": "containerkirithikaa17"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}

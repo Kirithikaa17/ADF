@@ -126,20 +126,6 @@
 				]
 			}
 		],
-		"parameters": {
-			"pp_container": {
-				"type": "string"
-			},
-			"pp_inputfolder": {
-				"type": "string"
-			},
-			"pp_outputfolder": {
-				"type": "string"
-			},
-			"pp_filename": {
-				"type": "string"
-			}
-		},
 		"annotations": []
 	}
 }

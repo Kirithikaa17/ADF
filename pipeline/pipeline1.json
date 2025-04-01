@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "Copy data1",
+				"name": "datacopy_output",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {
@@ -89,11 +89,11 @@
 				]
 			},
 			{
-				"name": "Copy data2",
+				"name": "datacopy_archive",
 				"type": "Copy",
 				"dependsOn": [
 					{
-						"activity": "Copy data1",
+						"activity": "datacopy_output",
 						"dependencyConditions": [
 							"Succeeded"
 						]
@@ -182,11 +182,11 @@
 				]
 			},
 			{
-				"name": "Delete1",
+				"name": "Delete_archive",
 				"type": "Delete",
 				"dependsOn": [
 					{
-						"activity": "Copy data2",
+						"activity": "datacopy_archive",
 						"dependencyConditions": [
 							"Succeeded"
 						]
@@ -219,7 +219,7 @@
 							}
 						}
 					},
-					"enableLogging": true,
+					"enableLogging": false,
 					"storeSettings": {
 						"type": "AzureBlobFSReadSettings",
 						"recursive": true,

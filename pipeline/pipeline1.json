@@ -91,16 +91,20 @@
 		],
 		"parameters": {
 			"pp_container": {
-				"type": "string"
+				"type": "string",
+				"defaultValue": "containerkirithikaa17"
 			},
 			"pp_inputfolder": {
-				"type": "string"
+				"type": "string",
+				"defaultValue": "KirithiProject/input"
 			},
 			"pp_outputfolder": {
-				"type": "string"
+				"type": "string",
+				"defaultValue": "KirithiProject/output"
 			},
 			"pp_filename": {
-				"type": "string"
+				"type": "string",
+				"defaultValue": "SalesLTProduct.txt"
 			}
 		},
 		"annotations": []

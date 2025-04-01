@@ -1,5 +1,5 @@
 {
-	"name": "sinkdata",
+	"name": "Sink_Archive",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "SourceDataset",
@@ -10,11 +10,10 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"fileName": "SalesLTProduct.txt",
-				"folderPath": "KirithiProject/output",
+				"folderPath": "KirithiProject/archive",
 				"fileSystem": "containerkirithikaa17"
 			},
-			"columnDelimiter": "\t",
+			"columnDelimiter": ",",
 			"escapeChar": "\\",
 			"firstRowAsHeader": true,
 			"quoteChar": "\""

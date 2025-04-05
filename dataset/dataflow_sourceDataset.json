@@ -11,7 +11,7 @@
 			"location": {
 				"type": "AzureBlobFSLocation",
 				"fileName": "SalesLTProduct.csv",
-				"folderPath": "KirithiProject/input",
+				"folderPath": "KirithiProject/output",
 				"fileSystem": "containerkirithikaa17"
 			},
 			"columnDelimiter": "\t",

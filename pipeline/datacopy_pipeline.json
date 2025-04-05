@@ -1,5 +1,5 @@
 {
-	"name": "datacopy_pipeline1",
+	"name": "datacopy_pipeline",
 	"properties": {
 		"activities": [
 			{

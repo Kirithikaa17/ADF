@@ -103,6 +103,10 @@
 			"pp_output": {
 				"type": "string",
 				"defaultValue": "KirithiProject/output"
+			},
+			"pp_archive": {
+				"type": "string",
+				"defaultValue": "KirithiProject/archive"
 			}
 		},
 		"annotations": []

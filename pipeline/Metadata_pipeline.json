@@ -19,7 +19,11 @@
 						"referenceName": "GetmetaData",
 						"type": "DatasetReference"
 					},
-					"fieldList": [],
+					"fieldList": [
+						"childItems",
+						"itemName",
+						"itemType"
+					],
 					"storeSettings": {
 						"type": "AzureBlobFSReadSettings",
 						"enablePartitionDiscovery": false

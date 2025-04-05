@@ -83,6 +83,10 @@
 									"pp_filename": {
 										"value": "@item().name",
 										"type": "Expression"
+									},
+									"pp_archive": {
+										"value": "@pipeline().parameters.pp_archive",
+										"type": "Expression"
 									}
 								}
 							}

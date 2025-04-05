@@ -55,7 +55,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "copytocsv",
+						"referenceName": "sinkcsv",
 						"type": "DatasetReference"
 					}
 				]

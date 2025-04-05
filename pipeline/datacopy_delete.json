@@ -184,6 +184,8 @@
 			{
 				"name": "Delete_archive",
 				"type": "Delete",
+				"state": "Inactive",
+				"onInactiveMarkAs": "Succeeded",
 				"dependsOn": [
 					{
 						"activity": "datacopy_archive",

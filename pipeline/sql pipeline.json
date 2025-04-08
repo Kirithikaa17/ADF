@@ -18,6 +18,11 @@
 					"source": {
 						"type": "AzureSqlSource",
 						"sqlReaderStoredProcedureName": "[dbo].[GetProductsByColor]",
+						"storedProcedureParameters": {
+							"Color": {
+								"type": "String"
+							}
+						},
 						"queryTimeout": "02:00:00",
 						"partitionOption": "None"
 					},
@@ -56,11 +61,6 @@
 				]
 			}
 		],
-		"parameters": {
-			"pp_color": {
-				"type": "String"
-			}
-		},
 		"annotations": []
 	}
 }

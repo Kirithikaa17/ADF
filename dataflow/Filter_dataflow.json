@@ -1,5 +1,5 @@
 {
-	"name": "dataflow3",
+	"name": "Filter_dataflow",
 	"properties": {
 		"type": "MappingDataFlow",
 		"typeProperties": {

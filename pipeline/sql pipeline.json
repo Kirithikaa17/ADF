@@ -19,8 +19,9 @@
 						"type": "AzureSqlSource",
 						"sqlReaderStoredProcedureName": "[dbo].[GetProductsByColor]",
 						"storedProcedureParameters": {
-							"Color": {
-								"type": "String"
+							"color": {
+								"type": "Single",
+								"value": "Red"
 							}
 						},
 						"queryTimeout": "02:00:00",

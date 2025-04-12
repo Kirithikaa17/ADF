@@ -10,7 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"fileName": "salesLTproductRed.csv",
+				"fileName": "salesLTproductop2.csv",
 				"folderPath": "KirithiProject/output/sql",
 				"fileSystem": "containerkirithikaa17"
 			},

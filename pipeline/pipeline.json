@@ -65,11 +65,6 @@
 							"typeProperties": {
 								"source": {
 									"type": "AzureSqlSource",
-									"additionalColumns": [
-										{
-											"value": "$$COLUMN:"
-										}
-									],
 									"sqlReaderQuery": {
 										"value": "@concat('SELECT * FROM [', item().SchemaName, '].[', item().TableName, ']')\n",
 										"type": "Expression"

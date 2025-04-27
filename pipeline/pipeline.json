@@ -66,7 +66,7 @@
 								"source": {
 									"type": "AzureSqlSource",
 									"sqlReaderQuery": {
-										"value": "@concat('SELECT * FROM [', item().SchemaName, '].[', item().TableName, ']')\n",
+										"value": "@item().QueryTable",
 										"type": "Expression"
 									},
 									"queryTimeout": "02:00:00",
@@ -95,7 +95,7 @@
 							},
 							"inputs": [
 								{
-									"referenceName": "AzureSqlTable1",
+									"referenceName": "PR_AzureSqlTable",
 									"type": "DatasetReference"
 								}
 							],

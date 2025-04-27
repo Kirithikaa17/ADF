@@ -65,8 +65,13 @@
 							"typeProperties": {
 								"source": {
 									"type": "AzureSqlSource",
+									"additionalColumns": [
+										{
+											"value": "$$COLUMN:"
+										}
+									],
 									"sqlReaderQuery": {
-										"value": "@item().QueryTable",
+										"value": "@concat('SELECT * FROM [', item().SchemaName, '].[', item().TableName, ']')\n",
 										"type": "Expression"
 									},
 									"queryTimeout": "02:00:00",
